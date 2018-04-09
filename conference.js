@@ -6,6 +6,6 @@ function add(obj) {
     console.log(obj);
 }
 
-function show(str = "nothing") {
+function show(str = ["nothinh"]) {
     console.log(str);
 }
