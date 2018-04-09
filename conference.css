@@ -1,0 +1,89 @@
+li {
+    font-size: 16px;
+    /*font-family: "Microsoft YaHei";*/
+    font-family: "微软雅黑";
+}
+
+h2 {
+    text-align: center;
+}
+
+li.point {
+    color: red;
+    font-weight: bold;
+}
+li.inline {
+    display: inline;
+}
+
+li li {
+    color: gray;
+    list-style: upper-roman;
+}
+
+body {
+    background-color: rgba(231, 231, 231, 0.4);
+}
+
+p {
+    text-align: center;
+}
+
+p.important{
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.list_title {
+    font-size: 24px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a.title {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+img{
+    display: inline;
+}
+div.left {
+    float: left;
+    margin-left: 5%;
+    width: 40%;
+    background-color: #ececec;
+    /*border-width: 2px;*/
+    /*border-color: red;*/
+    /*border-style: solid;*/
+    /*border:3px solid red;*/
+}
+div.right{
+    float: right;
+    margin-right: 5%;
+    width: 40%;
+    background-color: #ececec;
+/*    border-width: 2px;
+    border-color: #cccccc;  
+    border-style: solid;*/
+}
+div.middle{
+    float: left;
+}
+
+div{
+    margin-top: 50px;
+}
+
+img{
+    background: #151BE2  url(../../temp.png) no-repeat left center; 
+}
